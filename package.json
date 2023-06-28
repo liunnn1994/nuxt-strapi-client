@@ -1,0 +1,36 @@
+{
+  "name": "nuxt-strapi-client",
+  "private": true,
+  "description": "nuxt strapi 模板",
+  "packageManager": "pnpm@8.6.3",
+  "license": "AGPL-3.0",
+  "author": {
+    "name": "liunnn1994",
+    "email": "liunnn@2077tech.com"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "cz": "git-cz",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/eslint-config":"0.1.1",
+    "eslint": "8.43.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsdoc": "46.4.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "prettier": "2.8.8",
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18",
+    "nuxt": "^3.6.1",
+    "git-cz": "4.9.0",
+    "husky": "8.0.3",
+    "@commitlint/cli": "17.6.6",
+    "@commitlint/config-conventional": "17.6.6"
+  }
+}
