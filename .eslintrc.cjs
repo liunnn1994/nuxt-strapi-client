@@ -1,11 +1,17 @@
 module.exports = {
+  root: true,
+  env: {
+    node: true,
+  },
   plugins: ["jsdoc", "import", "prettier"],
   extends: [
+    "plugin:vue/vue3-essential",
+    "@vue/eslint-config-typescript",
     "eslint:recommended",
     "plugin:jsdoc/recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier",
-    "@nuxt/eslint-config",
+    "@nuxt/eslint-config",,
   ],
   parserOptions: {
     ecmaVersion: "latest",
