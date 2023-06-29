@@ -6,7 +6,7 @@ settings:
 
 devDependencies:
   '@babel/types':
-    specifier: ^7.22.5
+    specifier: 7.22.5
     version: 7.22.5
   '@commitlint/cli':
     specifier: 17.6.6
@@ -30,11 +30,11 @@ devDependencies:
     specifier: 0.1.0
     version: 0.1.0(@nuxt/kit@3.6.1)(vite-plugin-pwa@0.16.4)
   '@vue/eslint-config-typescript':
-    specifier: ^11.0.3
+    specifier: 11.0.3
     version: 11.0.3(eslint-plugin-vue@9.15.1)(eslint@8.43.0)(typescript@4.9.5)
   '@vueuse/nuxt':
-    specifier: 10.2.0
-    version: 10.2.0(nuxt@3.6.1)(rollup@2.79.1)(vue@3.3.4)
+    specifier: 10.2.1
+    version: 10.2.1(nuxt@3.6.1)(rollup@2.79.1)(vue@3.3.4)
   eslint:
     specifier: 8.43.0
     version: 8.43.0
@@ -45,13 +45,13 @@ devDependencies:
     specifier: 2.27.5
     version: 2.27.5(@typescript-eslint/parser@5.60.1)(eslint@8.43.0)
   eslint-plugin-jsdoc:
-    specifier: 46.4.0
-    version: 46.4.0(eslint@8.43.0)
+    specifier: 46.4.2
+    version: 46.4.2(eslint@8.43.0)
   eslint-plugin-prettier:
     specifier: 4.2.1
     version: 4.2.1(eslint-config-prettier@8.8.0)(eslint@8.43.0)(prettier@2.8.8)
   eslint-plugin-vue:
-    specifier: ^9.15.1
+    specifier: 9.15.1
     version: 9.15.1(eslint@8.43.0)
   git-cz:
     specifier: 4.9.0
@@ -69,13 +69,13 @@ devDependencies:
     specifier: 2.8.8
     version: 2.8.8
   sass:
-    specifier: ^1.63.6
+    specifier: 1.63.6
     version: 1.63.6
   vite-plugin-vuetify:
-    specifier: ^1.0.2
+    specifier: 1.0.2
     version: 1.0.2(vite@4.3.9)(vue@3.3.4)(vuetify@3.3.6)
   vuetify:
-    specifier: ^3.3.6
+    specifier: 3.3.6
     version: 3.3.6(typescript@4.9.5)(vite-plugin-vuetify@1.0.2)(vue@3.3.4)
 
 packages:
@@ -3218,30 +3218,30 @@ packages:
       vuetify: 3.3.6(typescript@4.9.5)(vite-plugin-vuetify@1.0.2)(vue@3.3.4)
     dev: true
 
-  /@vueuse/core@10.2.0(vue@3.3.4):
-    resolution: {integrity: sha512-aHBnoCteIS3hFu7ZZkVB93SanVDY6t4TIb7XDLxJT/HQdAZz+2RdIEJ8rj5LUoEJr7Damb5+sJmtpCwGez5ozQ==}
+  /@vueuse/core@10.2.1(vue@3.3.4):
+    resolution: {integrity: sha512-c441bfMbkAwTNwVRHQ0zdYZNETK//P84rC01aP2Uy/aRFCiie9NE/k9KdIXbno0eDYP5NPUuWv0aA/I4Unr/7w==}
     dependencies:
       '@types/web-bluetooth': 0.0.17
-      '@vueuse/metadata': 10.2.0
-      '@vueuse/shared': 10.2.0(vue@3.3.4)
+      '@vueuse/metadata': 10.2.1
+      '@vueuse/shared': 10.2.1(vue@3.3.4)
       vue-demi: 0.14.5(vue@3.3.4)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
     dev: true
 
-  /@vueuse/metadata@10.2.0:
-    resolution: {integrity: sha512-IR7Mkq6QSgZ38q/2ZzOt+Zz1OpcEsnwE64WBumDQ+RGKrosFCtUA2zgRrOqDEzPBXrVB+4HhFkwDjQMu0fDBKw==}
+  /@vueuse/metadata@10.2.1:
+    resolution: {integrity: sha512-3Gt68mY/i6bQvFqx7cuGBzrCCQu17OBaGWS5JdwISpMsHnMKKjC2FeB5OAfMcCQ0oINfADP3i9A4PPRo0peHdQ==}
     dev: true
 
-  /@vueuse/nuxt@10.2.0(nuxt@3.6.1)(rollup@2.79.1)(vue@3.3.4):
-    resolution: {integrity: sha512-2rtZ5LmARJhUou8AJL1WwNNodinw/pwujVPsred+OuaU6H61t+hK3rQqdS/1Iu8Rw3mFj/dtVKVXOHai0dHMTg==}
+  /@vueuse/nuxt@10.2.1(nuxt@3.6.1)(rollup@2.79.1)(vue@3.3.4):
+    resolution: {integrity: sha512-01iDXnjZFDaGZnEL0nvlmSTNV0EG6WY+VSFyWnBji9lbxdQwOn4DHvLou3ePe8ipaoQVtY58WcL0OHIFa4+fBA==}
     peerDependencies:
       nuxt: ^3.0.0
     dependencies:
       '@nuxt/kit': 3.6.1(rollup@2.79.1)
-      '@vueuse/core': 10.2.0(vue@3.3.4)
-      '@vueuse/metadata': 10.2.0
+      '@vueuse/core': 10.2.1(vue@3.3.4)
+      '@vueuse/metadata': 10.2.1
       local-pkg: 0.4.3
       nuxt: 3.6.1(@types/node@20.3.2)(eslint@8.43.0)(rollup@2.79.1)(sass@1.63.6)(typescript@4.9.5)
       vue-demi: 0.14.5(vue@3.3.4)
@@ -3252,8 +3252,8 @@ packages:
       - vue
     dev: true
 
-  /@vueuse/shared@10.2.0(vue@3.3.4):
-    resolution: {integrity: sha512-dIeA8+g9Av3H5iF4NXR/sft4V6vys76CpZ6hxwj8eMXybXk2WRl3scSsOVi+kQ9SX38COR7AH7WwY83UcuxbSg==}
+  /@vueuse/shared@10.2.1(vue@3.3.4):
+    resolution: {integrity: sha512-QWHq2bSuGptkcxx4f4M/fBYC3Y8d3M2UYyLsyzoPgEoVzJURQ0oJeWXu79OiLlBb8gTKkqe4mO85T/sf39mmiw==}
     dependencies:
       vue-demi: 0.14.5(vue@3.3.4)
     transitivePeerDependencies:
@@ -4929,8 +4929,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-jsdoc@46.4.0(eslint@8.43.0):
-    resolution: {integrity: sha512-2AJY31jpFdPTCa4UMFUfu8b8rPeSaShYx/lS+GrdDVVEjN3rzfN/PZtI2YbexrIO6KLDqP3241BynWn7QB5jhg==}
+  /eslint-plugin-jsdoc@46.4.2(eslint@8.43.0):
+    resolution: {integrity: sha512-fmIgOe7irf9otkMtsPjr5P39wC5LzA6aEU/nydfUlc8JaEiS93uhPaxI+x/v5s1Ckm+IZeP3006do2n2ehZcNQ==}
     engines: {node: '>=16'}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0
