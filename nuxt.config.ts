@@ -26,14 +26,29 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
     "@vite-pwa/nuxt",
     async (options, nuxt) => {
-      nuxt.hooks.hook("vite:extendConfig", (config) =>
-        config.plugins.push(vuetify())
-      );
+      nuxt.hooks.hook("vite:extendConfig", (config) => {
+        if (!config.plugins) config.plugins = [];
+        config.plugins.push(vuetify());
+      });
     },
   ],
   devtools: { enabled: process.env.NODE_ENV === "development" },
-  css: ["vuetify/lib/styles/main.sass"],
+  css: ["~/assets/css/main.scss", "vuetify/lib/styles/main.sass"],
   build: {
     transpile: ["vuetify"],
+  },
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
+  nitro: {
+    devProxy: {
+      "/api/strapi": {
+        target: `${process.env.STRAPI_URL}/api`,
+        changeOrigin: true,
+      },
+    },
   },
 });
